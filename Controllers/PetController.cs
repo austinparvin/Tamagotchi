@@ -81,7 +81,7 @@ namespace Tamagotchi.Controllers
         }
 
         // "Play" With Pet
-        [HttpGet("{id}/play")]
+        [HttpPut("{id}/play")]
         public Pet Play(int id)
         {
 
@@ -104,7 +104,7 @@ namespace Tamagotchi.Controllers
 
         }
 
-        [HttpGet("{id}/feed")]
+        [HttpPut("{id}/feed")]
         public Pet Feed(int id)
         {
 
@@ -127,7 +127,7 @@ namespace Tamagotchi.Controllers
 
         }
 
-        [HttpGet("{id}/scold")]
+        [HttpPut("{id}/scold")]
         public Pet Scold(int id)
         {
             var petToScold = db.Pets.FirstOrDefault(p => p.Id == id);
