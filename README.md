@@ -46,13 +46,13 @@
  
 ## User Actions
 
-- `GET /api/pets`, this should return all pets in your database
-- `GET /api/pets/{id}`, This should return the pet with the corresponding Id.
-- `POST /api/pets`, This should create a new pet. The body of the request should contain the name of the pet.
-- `PUT /api/pets/{id}/play`, This should find the pet by id, and add 5 to its happiness level and add 3 to its hungry level
-- `PUT /api/pets/{id}/feed`, This should find the pet by id, and remove 5 from its hungry level and add 3 to its happiness level.
-- `PUT /api/pets/{id}/scold`, This should find the pet by id, and remove 5 from its happiness level
-- `DELETE /api/pets/{id}`, this should delete a pet from the database by Id
+- `GET /api/pets`, this returns all pets in the database
+- `GET /api/pets/{id}`, This retursn the pet with the corresponding Id.
+- `POST /api/pets`, This creates a new pet. The body of the request should contain the name of the pet.
+- `PUT /api/pets/{id}/play`, This finds the pet by id, and add 5 to its happiness level and add 3 to its hungry level
+- `PUT /api/pets/{id}/feed`, This finds the pet by id, and remove 5 from its hungry level and add 3 to its happiness level.
+- `PUT /api/pets/{id}/scold`, This finds the pet by id, and remove 5 from its happiness level
+- `DELETE /api/pets/{id}`, This deletes a pet from the database by Id
 
 ## App In Action
 
