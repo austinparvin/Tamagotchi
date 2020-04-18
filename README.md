@@ -12,7 +12,7 @@
 - [POSTGRESQL](https://www.postgresql.org/)
 - [CONTROLLERS](https://docs.microsoft.com/en-us/dotnet/api/system.web.mvc.controller?view=aspnet-mvc-5.2)
 - [POSTMAN](https://www.postman.com/)
-- MVC design pattern
+- [MVC](https://dotnet.microsoft.com/apps/aspnet/mvc)
 
 ## Featured Code
 
@@ -54,6 +54,3 @@
 - `PUT /api/pets/{id}/scold`, This finds the pet by id, and remove 5 from its happiness level
 - `DELETE /api/pets/{id}`, This deletes a pet from the database by Id
 
-## App In Action
-
-(need link to deployed api)
