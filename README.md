@@ -16,7 +16,7 @@
 
 ## Featured Code
 
-### One to many relationship POCO
+### Api endpoint
 
 ```C#
   // "Play" With Pet
